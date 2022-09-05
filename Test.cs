@@ -20,7 +20,6 @@ public class Test : MonoBehaviour
         float cf  = Vector2.Distance(C.position, F);
         float fd = Vector2.Distance(F, D.position);
 
-        box.size = new Vector2(cf, fd);
-        
+        box.size = new Vector2(cf, fd);  
     }
 }
